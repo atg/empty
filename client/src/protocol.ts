@@ -1,1 +1,1 @@
-export let unused;
+export let unused = 42;

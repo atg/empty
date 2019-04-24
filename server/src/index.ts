@@ -62,18 +62,30 @@ class Main {
 
     const httpServer = this.httpServer = app.listen(PORT, () => console.log(`HTTP listening on port ${PORT}!`));
 
+    app.use('/static', express.static(pathlib.join(rootPath, 'client/static')));
     await this.entrypoint();
   }
   async entrypoint() {
+    const style = (href: string) => h('link', { href, rel: 'stylesheet' });
+    const script = (src: string) => h('script', { src });
     const app = this.app;
-
     app.get('/', (req: any, res: any) => {
       const dom = h('html',
         h('head',
           h('meta', { charset: 'utf-8' }),
-          h('title', '')),
+          h('title', 'Title here'),
+          script('static/vendor/system.min.js'),
+          script('static/vendor/system-named-register.min.js'),
+          script('static/vendor/lodash.min.js'),
+          script('static/vendor/mithril.min.js'),
+          script('static/vendor/msgpack-lite.min.js'),
+          script('static/js/packed.js'),
+          h('script', `System.import("client");`),
+        ),
         h('body',
-          h('h1', 'Hello World')));
+          h('main#Main'),
+        )
+      );
       res.send('<!doctype html>\n' + dom.outerHTML);
     });
   }

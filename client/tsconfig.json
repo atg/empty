@@ -1,0 +1,12 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "strict": true,
+    "module": "system",
+    "target": "es6",
+    "sourceMap": true,
+    "outFile": "static/js/packed.js",
+    "removeComments": true,
+  }
+}
