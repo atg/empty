@@ -1,0 +1,9 @@
+{
+  "name": "untitled",
+  "version": "0.0.1",
+  "main": "server/build/index.js",
+  "repository": "git@github.com:atg/empty.git",
+  "author": "Alex Gordon <alextgordon@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+}
