@@ -1,4 +1,7 @@
 _sessionsecret.txt
+client/static/js/packed.js
+client/static/js/packed.js.map
+server/build
 
 # Logs
 logs

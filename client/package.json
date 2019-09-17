@@ -1,0 +1,13 @@
+{
+  "name": "untitled",
+  "version": "0.0.1",
+  "repository": "git@github.com:atg/empty.git",
+  "author": "Alex Gordon <alextgordon@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/mithril": "^1.1.16",
+    "@types/msgpack-lite": "^0.1.6"
+  }
+}

@@ -74,6 +74,7 @@ class Main {
         h('head',
           h('meta', { charset: 'utf-8' }),
           h('title', 'Title here'),
+          style('static/css/style.css'),
           script('static/vendor/system.min.js'),
           script('static/vendor/system-named-register.min.js'),
           script('static/vendor/lodash.min.js'),

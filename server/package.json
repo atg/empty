@@ -6,4 +6,26 @@
   "author": "Alex Gordon <alextgordon@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/csurf": "^1.9.35",
+    "@types/express": "^4.16.1",
+    "@types/express-session": "^1.15.12",
+    "@types/hyperscript": "^0.0.3",
+    "@types/lodash": "^4.14.123",
+    "@types/msgpack-lite": "^0.1.6",
+    "@types/node": "^11.13.7",
+    "@types/ws": "^6.0.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "csurf": "^1.10.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "hyperscript": "^2.0.2",
+    "lodash": "^4.17.11",
+    "memorystore": "^1.6.1",
+    "msgpack-lite": "^0.1.26",
+    "ws": "^6.2.1"
+  }
 }
