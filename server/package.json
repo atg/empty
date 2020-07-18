@@ -23,7 +23,7 @@
     "express": "^4.16.4",
     "express-session": "^1.16.1",
     "hyperscript": "^2.0.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "memorystore": "^1.6.1",
     "msgpack-lite": "^0.1.26",
     "ws": "^6.2.1"
